@@ -7,17 +7,17 @@ FEDA-MedAlarms is a sound event detection (SED) system specifically designed for
 ## Features
 
 - **Medical Alarm Classification**: Detects 7 classes of medical alarms:
-  - OT (Operating Table)
-  - APPLIX (Ventilator)
-  - TE (Terumo)
-  - THOPAZ (Chest drain system)
-  - SCD (Sequential compression device)
-  - PVM-high (Patient monitor high alarm)
-  - C1-mid (Patient monitor mid alarm)
+  - Syringe pump
+  - Infusion pump
+  - External feeding pump
+  - Patient monitor
+  - Chest drainage
+  - Foot pump
+  - Mechanical ventilator
 
 - **Deep Learning Models**: Multiple neural network architectures:
-  - CNN3-BiGRU (3-layer CNN with Bidirectional GRU)
   - CNN3-BiSRNN (3-layer CNN with Bidirectional Simple RNN)
+  - CNN3-BiGRU (3-layer CNN with Bidirectional GRU)
   - CNN4-BiGRU (4-layer CNN with Bidirectional GRU)
   - CNN4-stride1x2-BiGRU (4-layer CNN with custom stride)
 
@@ -209,7 +209,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Based on DCASE sound event detection frameworks
 - Uses sed_eval library for evaluation metrics
 - Incorporates SpecAugment for data augmentation
-
-## Contact
-
-For questions or issues, please open an issue on GitHub or contact [your-email@example.com].
