@@ -1,5 +1,5 @@
 # FEDA-MedAlarms: Medical Alarm Sound Event Detection
-
+[![DOI](https://zenodo.org/badge/17347257.svg)](https://zenodo.org/badge/latestdoi/17347257)
 ## Overview
 
 FEDA-MedAlarms is a sound event detection (SED) system specifically designed for medical alarm recognition in healthcare environments. The system uses Convolutional Recurrent Neural Networks (CRNN) with mel-spectrogram features to detect and classify medical alarm sounds.
