@@ -1,0 +1,9 @@
+cff-version: 1.1.0
+message: "Cite as"
+authors:
+  - family-names: KISHIMOTO
+    given-names: Kazumasa
+    orcid: https://orcid.org/0000-0002-1674-6363
+    website: https://researchmap.jp/k_kishimoto?lang=en
+title: "FEDA-MedAlarms"
+doi: 10.5281/zenodo.17347256
