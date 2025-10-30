@@ -189,11 +189,14 @@ onset_time    offset_time    class_label
 If you use this code in your research, please cite:
 
 ```bibtex
-@article{your_paper_2025,
-  title={FEDA-MedAlarms: Sound Event Detection for Medical Alarm Recognition},
-  author={Your Name},
-  journal={Your Journal},
-  year={2025}
+@misc{DetectionPolyphonicAlarm,
+	title = {Detection of {Polyphonic} {Alarm} {Sounds} from {Medical} {Devices} {Using} {Frequency}-{Enhanced} {Deep} {Learning}: {Simulation} {Study}},
+	shorttitle = {Detection of {Polyphonic} {Alarm} {Sounds} from {Medical} {Devices} {Using} {Frequency}-{Enhanced} {Deep} {Learning}},
+	url = {https://preprints.jmir.org/preprint/35987},
+	abstract = {Journal of Medical Internet Research - International Scientific Journal for Medical Research, Information and Communication on the Internet},
+	language = {en},
+	urldate = {2025-10-26},
+	journal = {JMIR Preprints},
 }
 ```
 
