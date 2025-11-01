@@ -1,28 +1,7 @@
-"""サウンドイベント検出のための推論とメトリクス計算
+"""Inference and Metric Calculation for Sound Event Detection
 
-このスクリプトは学習済みのViTモデルを使用してサウンドイベント検出の推論を行い、
-性能評価のためのメトリクスを計算します。
-
-前提条件:
-1. feature_testdataset.ipynbでテストデータセットを準備済みであること
-
-必要な環境:
-- Python 3.8
-- CUDA 11.0
-- cuDNN 8.0.5.39
-
-必要なパッケージ:
-- tensorflow-gpu==2.4.1
-- tensorflow-addons (最新版)
-- numpy==1.16.4
-- h5py==2.10.0
-- librosa
-- matplotlib
-- pandas
-- scikit-learn
-
-Author:
-Date: 2025
+This script uses a trained model to perform inference for sound event detection and
+calculate metrics for performance evaluation.
 """
 
 from __future__ import print_function
@@ -172,23 +151,13 @@ def time_output(pred_thresh_, model_filename_, eval_f_, fold_):
         6: 'C1-mid'
     }
 
-    # __class_labels = {
-    #     0:'OT',
-    #     1:'CUF',
-    #     2:'TE',
-    #     3:'SAV'
-    # }
-
     data['label'] = data['label'].replace(__class_labels)
-    #         print(pred_thresh[0][n][m], Y_test[0][n][m])
 
     # TSV形式で出力
     filename = f'./result_fold/result_{model_filename_}_{eval_f_}_fold{fold_}.txt'
     data.to_csv(filename, sep='\t', header=False,
                 index=False, index_label=False)
     print("Save Result: ")
-
-    # data
 
 #######################################################################################
 # MAIN SCRIPT STARTS HERE
