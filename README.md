@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17347256.svg)](https://doi.org/10.5281/zenodo.17347256)
 ## Overview
 
-FEDA-MedAlarms is a sound event detection (SED) system specifically designed for medical alarm recognition in healthcare environments. The system uses Convolutional Recurrent Neural Networks (CRNN) with mel-spectrogram features to detect and classify medical alarm sounds.
+FEDA(Frequency-Enhanced Deep-learning for Alarms)-MedAlarms is a sound event detection (SED) system specifically designed for medical alarm recognition in healthcare environments. The system uses Convolutional Recurrent Neural Networks (CRNN) with mel-spectrogram features to detect and classify medical alarm sounds.
 
 ## Features
 
